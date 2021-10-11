@@ -1,0 +1,103 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  min-height: 400px;
+  background-image: url("https://i.pinimg.com/564x/e0/68/7c/e0687cb0fc639ccf55adc2cdfddd2027.jpg");
+  background-color: #111;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid #0097a7;
+  border-collapse: collapse;
+  background-color: #0097a7;
+}
+
+h1,
+h3 {
+  color: #e0f7fa;
+  margin: 20px;
+  padding: 10px 15px;
+  text-shadow: 2px 2px 2px #00b8d4, 1px 1px 1px #00838f, 3px 3px 3px #4dd0e1;
+}
+
+h4 {
+  color: #d50000;
+  margin: 16px;
+  padding: 10px 15px;
+  text-shadow: 2px 3px 2px #212121, 1px 1px 2px #b71c1c, 3px 3px 4px #263238;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
+
+input {
+  margin: 10px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  background: #e1f5fe;
+  font-weight: bold;
+  font-size: 12px;
+  color: #e040fb;
+  border: 0;
+  cursor: pointer;
+  transition: 0.9s;
+}
+
+button {
+  margin: 10px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  background: #e040fb;
+  font-weight: bold;
+  font-size: 12px;
+  color: #e1f5fe;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+img {
+  max-height: 100px;
+  max-width: 50px;
+}
