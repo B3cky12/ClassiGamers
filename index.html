@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="pt-br" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Tabela de classificação</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodePen - Tabela de classificação /
+    Imersão Dev - Aula 06
+  </title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<html>
-
-<head>
-  <title>
-    Imersão Dev - Aula 06
-  </title>
-</head>
-
-<body>
   <h1>Tabela de classificação</h1><br>
 
   <div>
@@ -29,7 +24,7 @@
     <button type="submit" onclick="menos1()">Retirar</button>
   </div><br>
 
-  <table style="width:100%">
+  <table aria-describedby="Tabela de estatísticas dos jogadores">
     <thead>
       <tr>
         <th>Foto</th>
@@ -42,26 +37,6 @@
       </tr>
     </thead>
     <tbody id="tabelaJogadores">
-      <!--      <tr>
-        <td>Paulo</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><button onClick="adicionarVitoria()">Vitória</button></td>
-        <td><button onClick="adicionarEmpate()">Empate</button></td>
-        <td><button onClick="adicionarDerrota()">Derrota</button></td>
-      </tr>
-      <tr>
-        <td>Rafa</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><button onClick="adicionarVitoria()">Vitória</button></td>
-        <td><button onClick="adicionarEmpate()">Empate</button></td>
-        <td><button onClick="adicionarDerrota()">Derrota</button></td>
-      </tr> -->
     </tbody>
   </table>
   <div><br>
@@ -69,11 +44,8 @@
       <h4>
         <button onclick="resetar()">Limpar Pontos</button>
   </div>
-</body>
-
-</html>
 <!-- partial -->
+</body>
   <script  src="./script.js"></script>
 
-</body>
 </html>
